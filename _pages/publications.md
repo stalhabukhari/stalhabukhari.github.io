@@ -1,16 +1,14 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Papers"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Up-to-date list of publications is available at: [<img src="https://img.shields.io/badge/Google%20Scholar-%230077B5.svg?&style=for-the-badge&logo=google-scholar&logoColor=blue&color=white" />](https://scholar.google.com/citations?user=B-lOirkAAAAJ&hl=en)
 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include research-paper.html %}
 {% endfor %}

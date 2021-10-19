@@ -1,0 +1,42 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p>
+        {% if post.url %}
+            <a href="{{ post.url }}">{{ title }}</a>
+        {% else %}
+            <a>{{ title }}</a>
+        {% endif %}<br>
+
+        {{ post.authors }}. <i>{{ post.venue }}</i>. {{ post.year }}
+        {% if post.code %}
+            <a href="{{ post.code }}">[code]</a>
+        {% endif %}
+        {% if post.data %}
+            <a href="{{ post.data }}">[data]</a>
+        {% endif %}
+        {% if post.citation %}
+            Citation: {{ post.citation }}
+        {% endif %}
+    </p>
+    <!--    {% if post.abstract and site.read_more != 'enabled' %}-->
+    <!--    <p class="archive__item-abstract" itemprop="description"><b>Abstract:</b>{{ post.abstract | markdownify }}</p>-->
+    <!--    {% elsif post.abstract and site.read_more == 'enabled' %}-->
+    <!--    <p class="archive__item-abstract" itemprop="description"><b>Abstract:</b><p>{{ post.abstract | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>-->
+    <!--    {% endif %}-->
+
+</article>
+</div>
