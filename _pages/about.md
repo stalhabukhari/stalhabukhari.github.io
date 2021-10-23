@@ -17,3 +17,7 @@ Brief Background
 As of August 2021, I am a Machine Learning Software Engineer at [**Pointivo, Inc**](https://pointivo.com/). focusing on 2D/3D objection localization and scene segmentation.
 I did my Bachelors in Mechatronics & Control Engineering from the [**University of Engineering and Technology, Lahore**](https://www.uet.edu.pk), and my Masters in Electrical Engineering from [**Syed Babar Ali School of Science & Engineering, LUMS**](https://sbasse.lums.edu.pk).
 While at LUMS, I investigated deep neural networks for medical image segmentation.
+
+
+<!-- Embedded Twitter Timeline -->
+<a class="twitter-timeline" data-height="450" data-dnt="true" data-theme="light" href="https://twitter.com/stalhabukhari?ref_src=twsrc%5Etfw">Tweets by stalhabukhari</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
