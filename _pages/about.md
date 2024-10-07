@@ -11,16 +11,15 @@ My current research focus is on leveraging Implicit Neural Representations for R
 </p>
 
 <p align="justify">
-Previously, I was a ML Software Engineer at <a href="https://pointivo.com" style="font-weight:bold">Pointivo</a> focusing on developing and deploying Machine Learning pipeline for 2D/3D objection localization and scene segmentation pipelines.
-I did my Bachelors in Mechatronics & Control Engineering from the <a href="https://www.uet.edu.pk" style="font-weight:bold">UET Lahore</a>, and my Masters in Electrical Engineering from <a href="https://sbasse.lums.edu.pk" style="font-weight:bold">LUMS</a>.
+Previously, I was a ML Software Engineer at <a href="https://pointivo.com" style="font-weight:bold">Pointivo</a> where I developed and deployed ML pipelines to derive insights for 3D asset inspection.
+Before that, I studied Mechatronics & Control Engineering at <a href="https://www.uet.edu.pk" style="font-weight:bold">UET Lahore</a>, and Signal Processing and Machine Learning at <a href="https://sbasse.lums.edu.pk" style="font-weight:bold">LUMS</a>.
 </p>
 
+<h2> Research Interests
+</h2>
+Machine Learning, Motion Planning, Scene Reconstruction, Geometry Processing
+
 <h2> Selected Publications
-<a href="https://scholar.google.com/citations?user=B-lOirkAAAAJ&hl=en">
-  <!-- <img src="https://img.shields.io/badge/Google%20Scholar-%230077B5.svg?&style=for-the-badge&logo=google-scholar&logoColor=blue&color=white" /> -->
-  <!-- <i class="fa-brands fa-google-scholar"></i> -->
-  <img src="/images/g-scholar.png" width="35px">
-</a>
 </h2>
 
 <!-- Publications list -->
@@ -86,4 +85,4 @@ I did my Bachelors in Mechatronics & Control Engineering from the <a href="https
 </table>
 
 <!-- Embedded Twitter Timeline -->
-<a class="twitter-timeline" data-height="450" data-dnt="true" data-theme="light" href="https://twitter.com/stalhabukhari?ref_src=twsrc%5Etfw">Tweets by stalhabukhari</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- <a class="twitter-timeline" data-height="450" data-dnt="true" data-theme="light" href="https://twitter.com/stalhabukhari?ref_src=twsrc%5Etfw">Tweets by stalhabukhari</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
