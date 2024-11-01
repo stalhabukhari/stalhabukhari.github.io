@@ -7,7 +7,7 @@ author_profile: true
 Hi!
 I'm <b>Talha</b> (طلحہ).
 I'm a PhD student in Computer Science and Fulbright Scholar at <a href="https://www.purdue.edu" style="font-weight:bold">Purdue</a>.
-My current research focus is on leveraging Implicit Neural Representations for Robot Motion Planning and Scene Understanding.
+My current research focus is on Learning Generative Models and Implicit Neural Representations for Robot Motion Planning tasks.
 </p>
 
 <p align="justify">
@@ -17,7 +17,7 @@ Before that, I studied Mechatronics & Control Engineering at <a href="https://ww
 
 <h2> Research Interests
 </h2>
-Machine Learning, Motion Planning, Scene Reconstruction, Geometry Processing
+Machine Learning, Motion Planning, Scene Understanding
 
 <h2> Selected Publications
 </h2>
