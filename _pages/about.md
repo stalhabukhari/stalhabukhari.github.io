@@ -58,9 +58,9 @@ Machine Learning, Motion Planning, Scene Understanding
     <!-- Authors -->
     {{ post.authors }}. <i>{{ post.venue }}</i>. {{ post.year }}
     <br>
-    <!-- Website -->
-    {% if post.website %}
-      <a href="{{ post.website }}">
+    <!-- paper -->
+    {% if post.paper %}
+      <a href="{{ post.paper }}">
       <i class="fa-solid fa-file-pdf fa-lg"></i>
       </a>
     {% endif %}
@@ -68,6 +68,12 @@ Machine Learning, Motion Planning, Scene Understanding
     {% if post.code %}
       <a href="{{ post.code }}">
       <i class="fa-brands fa-github fa-lg" style="margin-left:2px"></i>
+      </a>
+    {% endif %}
+    <!-- Website -->
+    {% if post.website %}
+      <a href="{{ post.website }}">
+      <i class="fa-solid fa-globe fa-lg"></i>
       </a>
     {% endif %}
     <!-- Data -->
